@@ -1,0 +1,24 @@
+html {
+    height: 100%;
+}
+
+body{
+    background-color: #7d0093;
+    font-family: 'Arial', 'Times New Roman';
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/party2.jpg);
+    background-size: cover;
+}
+
+
+main {
+    text-align: center;
+    padding-bottom: 20em;
+}
+
+main h2 {
+    font-size: 2em;
+    color: black;
+    margin-top: 9em;
+}

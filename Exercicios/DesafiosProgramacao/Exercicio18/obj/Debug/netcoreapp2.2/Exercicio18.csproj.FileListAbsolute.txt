@@ -1,0 +1,11 @@
+C:\Users\pedro\Desktop\Exercicios\DesafiosProgramacao\Exercicio18\obj\Debug\netcoreapp2.2\Exercicio18.csprojAssemblyReference.cache
+C:\Users\pedro\Desktop\Exercicios\DesafiosProgramacao\Exercicio18\obj\Debug\netcoreapp2.2\Exercicio18.csproj.CoreCompileInputs.cache
+C:\Users\pedro\Desktop\Exercicios\DesafiosProgramacao\Exercicio18\obj\Debug\netcoreapp2.2\Exercicio18.AssemblyInfoInputs.cache
+C:\Users\pedro\Desktop\Exercicios\DesafiosProgramacao\Exercicio18\obj\Debug\netcoreapp2.2\Exercicio18.AssemblyInfo.cs
+C:\Users\pedro\Desktop\Exercicios\DesafiosProgramacao\Exercicio18\bin\Debug\netcoreapp2.2\Exercicio18.deps.json
+C:\Users\pedro\Desktop\Exercicios\DesafiosProgramacao\Exercicio18\bin\Debug\netcoreapp2.2\Exercicio18.runtimeconfig.json
+C:\Users\pedro\Desktop\Exercicios\DesafiosProgramacao\Exercicio18\bin\Debug\netcoreapp2.2\Exercicio18.runtimeconfig.dev.json
+C:\Users\pedro\Desktop\Exercicios\DesafiosProgramacao\Exercicio18\bin\Debug\netcoreapp2.2\Exercicio18.dll
+C:\Users\pedro\Desktop\Exercicios\DesafiosProgramacao\Exercicio18\bin\Debug\netcoreapp2.2\Exercicio18.pdb
+C:\Users\pedro\Desktop\Exercicios\DesafiosProgramacao\Exercicio18\obj\Debug\netcoreapp2.2\Exercicio18.dll
+C:\Users\pedro\Desktop\Exercicios\DesafiosProgramacao\Exercicio18\obj\Debug\netcoreapp2.2\Exercicio18.pdb

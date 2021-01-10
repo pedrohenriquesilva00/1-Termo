@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<!-- tjnt -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Role top</title>
+    <link rel="stylesheet" type="text/css" href="css/Style.css" />
+    <script src="https://kit.fontawesome.com/349a64cb04.js"></script>
+</head>
+
+<body>
+<!-------------------------------------------------------
+        CABEÇALHO
+-------------------------------------------------------->
+    <header>
+        <nav id="menu">
+                <a id="logo"> <img src="img/logo.png"></a>
+            <ul>
+                <li id="bt-mobile-menu">
+                            <!-- HTML para colocar os ícones do FA -->
+                            <a href="javascript:void(0);" class="icon" onclick="toggleMobileMenu()">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                        </li>
+                <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="index.html">Início </a></li>
+                <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="login.html">Login</a></li>
+                <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="galeria.html">Galeria</a></li>
+                <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="administrador.html" target="blank">Administrador</a></li>
+                <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="agende-ja.html">Agende já</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <!-------------------------------------------------------
+            EFEITO PARALLAX   
+            -------------------------------------------------------->
+            <div class="conteudotuto">
+                <div id="banner-area">
+                </div>
+                <div class="parallax"></div>
+                <!------------------------------------------------------
+                    PROGRAMAÇÃO DE SHOWS
+                    -------------------------------------------------------->
+        <section id="shows">
+            <h1>Eventos da semana</h1>
+            <div>
+                <img src="img/jorge e mateus.jpg" title="Jorge & Mateus">
+            </div>
+        </section>
+        
+        <!---------------------------------------------------------
+        FORMATAÇÃO DO CORPO DE TEXTO DO SITE
+        ---------------------------------------------------------->
+        <section id="texto">
+            <h1>Rolê Top - Um pouco sobre nós</h1>
+            <p>Fundada em [ano de fundação, por exemplo, 1998], pelos senhores
+                Alexandre Fukaya e César Sportore, a Rolê Top tem como principal
+                missão oferecer [coloque aqui o que sua empresa vende ou oferece].
+            </p>
+            <br>
+            <div class="container">
+                <img src="img/administrador icon.jfif" />
+                <img src="img/administrador icon 2.jpg" />
+            </div>
+            <p>Serviço de qualidade é com a Rolê Top!</p>
+            <br>
+            <p>Aqui na Rolê Top, encontrará um local de extrema qualidade. Quer ver
+                dias e horários disponíveis? Dê uma olhada no calendário e agende já! </p>
+                <br>
+            <p>Durante o processo de criação do site, que envolve a definição
+                do layout e a cirção do conteúdo, é comum que uma parte dele seja
+                negligenciada: são as páginas de sobre [ou, em inglês, about pages],
+                que têm o objetivo de dar uma ideia geral sobre o seu negócio, sua
+                missão e valores. E é por isso que mesmo que acreditamos que as páginas
+                de about estão entre as mais importantes do site.
+            </p>
+        </section>
+        
+        <!-------------------------------------------------------------------------------
+            FORMATAÇÃO DO SERVIÇOS ADICIONAIS
+            -------------------------------------------------------------------------------->
+            <section id="servicos">
+                <h1>Serviços adicionais</h1>
+                <p>Além do espaço, nós disponibilizamos também alguns serviços adicionais,
+                    para melhorar ainda mais sua experiência com a Rolê Top! Esses incluem
+                    sistema de iluminação e de som profissionais. Se quiser incluí-los no
+                    pacote, na seção de agendamento terá a opção de incluí-los com um valor
+                    adicional ao do seu evento. </p>
+                    <br>
+                    <p>Não perca tempo, agende já</p>
+                    <br/>
+                    <div id="som">
+                        <img src="img/sistema de som.jpg" />
+                    </div>
+                    
+                    <div class="container2">
+                        <div id="iluminacao">
+                            <img src="img/sistema de iluminação profissional.jpg" />
+                        </div>
+                        <div id="ssom">
+                            <img src="img/o-coordenador-sadio-trabalha-com-sistema-de-som-profissional.jpg" />
+                        </div>
+                    </div>
+                </section>
+                
+                <!----------------------------------------------------------------------------------
+                    FORMATAÇÃO DA SEÇÃO REDES SOCIAIS
+                    ------------------------------------------------------------------------------------>
+                    <section id="social">
+                        <h1>Nossas redes sociais</h1>
+                        <figure class="foto-legenda2">
+                            <div id="face">
+                                <img src="img/facebook.jpg" />
+                                <figcaption><a href="https://www.facebook.com" target="blank">Facebook</a></figcaption>
+                                <img src="img/instagram.jpg" />
+                                <figcaption><a href="https://www.instagram.com" target="blank">Instagram</a></figcaption>
+                            </div>
+                        </figure>
+                    </section>
+                    
+                    <!-----------------------------------------------------------------------------------
+                        FORMATAÇÃO DO MAPA DE LOCALIZAÇÃO
+------------------------------------------------------------------------------------>
+<section id="localizacao">
+    <h1>Onde estamos</h1>
+    <h3>Veja no Google Maps como chegar no nosso espaço.</h3>
+    <br>
+    <h3>Contamos com uma localização privilegiada!</h3>
+    <br/>
+</section>
+
+<div id="local">
+    <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.890423799602!2d-46.64607037245504!3d-23.53644322236868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5843deade6e3%3A0x124f377d06c7e71f!2sAlameda%20Bar%C3%A3o%20de%20Limeira%2C%20539%20-%20Campos%20El%C3%ADseos%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001202-001!5e0!3m2!1spt-BR!2sbr!4v1567712605007!5m2!1spt-BR!2sbr"
+    frameborder="0" style="border:0;" allowfullscreen="">
+</iframe>
+</div>
+</main>
+<!-----------------------------------------------------------------------------------
+    FORMATAÇÃO DO RODAPÉ
+    --------------------------------------------------------------------------------------->
+<footer id="rodape">
+
+        <p>Avenida Barão de Limeira, 539 - Santa Cecília - São
+            <br>
+            Paulo/SP -
+            <br>
+            CEP: 1202-001
+            <br>
+            Telefone: (11) 3273-5000
+            <br>
+            Email: roletop@email.com.br
+        </p>
+    </footer>
+    <footer id="direitos">
+        <p>Copyright 2019 @ Todos os direitos reservados.</p>
+        <br/>
+        <a href="#">Voltar para o topo!</a>
+    </footer>
+
+        <script>
+                function toggleMobileMenu() {
+                    var ul = document.querySelector("nav ul");
+                    var commonButtons = document.querySelectorAll("nav .bt-common-menu");
+                    var icon = document.querySelector(".icon > i");
+                    ul.classList.toggle("mobile-mode");
+                    if (icon.classList.contains("fa-bars")) {
+                        icon.classList.remove("fa-bars");
+                        icon.classList.remove("fa");
+                        icon.classList.add("fas");
+                        icon.classList.add("fa-skull");
+                    } else {
+                        icon.classList.remove("fas");
+                        icon.classList.remove("fa-skull");
+                        icon.classList.add("fa");
+                        icon.classList.add("fa-bars");
+                    }
+                    for (var button of commonButtons) {
+                        button.classList.toggle("active");
+                    }
+                }
+                
+            </script>
+</body>
+</html>

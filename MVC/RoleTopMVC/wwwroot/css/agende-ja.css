@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Arial', 'Times New Roman';
+}
+
+p{
+    text-align: justify;
+}
+
+h2, h3, h4, h5, h6{
+    font-family: '&quot', 'Times New Roman',
+}
+
+/********************************************************************
+            FORMATAÇÃO DA LOGO DO SITE
+*******************************************************************/
+
+#logo >img {
+    width: 9.3em;
+}
+/******************************************************************************
+            INÍCO DAS NAVS: Menu de navegação
+******************************************************************************/
+nav {
+    background-color: #7d0093;
+    width: 100%;
+    z-index: 999;
+}
+
+nav #bt-mobile-menu {
+    display: none;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1em;
+    list-style-type: none;
+}
+
+nav ul > li {
+    width: 100%;
+    text-align: center;
+}
+
+nav ul > li > a {
+    padding: 0.4em;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+nav ul > li > a:hover {
+    background-color: black;
+    color: white;
+}
+
+/****************************************************************
+            FORMATAÇÃO DO AGENDAMENTO
+****************************************************************/
+main {
+    margin: 0;
+    padding: 30px;
+    background-image: url(../img/party2.jpg);
+    background-size: cover;
+    font-family:  '&quot', 'Times New Roman';
+}
+
+.agendar h2 {
+    color: #ffffff;
+    margin: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 20px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.agendar {
+    width: 600px;
+    height: 760px;
+    border: 2px solid #000000;
+    border-radius: 80px 0px 80px 0px;
+    color: #000000;
+    background-color: rgba(0,0,5,0.8);
+    top: 380px;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 20px 28px;
+}
+
+.agendar p {
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.agendar input, form select {
+    width: 100%;
+    margin-bottom: 21px;
+}  
+
+.agendar label {
+    color: white;
+    font-weight: bold;
+}
+
+.agendar input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 35px;
+    color: #000000;
+    background: #ffffff;
+    border-radius: 20px;
+    transition: 0.2s;
+    font-weight: bold;
+}
+
+.agendar input[type="submit"]:hover {
+    cursor: pointer;
+    background: #7d0093;
+    transition: 0.2s;
+}
+
+.agendar a {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: white;
+    transition: 0.2s;
+}
+
+.agendar > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}

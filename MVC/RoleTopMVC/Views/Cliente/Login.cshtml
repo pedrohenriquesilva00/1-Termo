@@ -1,0 +1,16 @@
+<main>
+
+    <div class="login">
+        <form method="POST" action='@Url.Action("Login","Cliente")'>
+        <img src="img/usuário.png"  class="usuario" width="85" height="85" alt="">
+        <h1>Login</h1>
+            <p>Email</p>
+            <input type="text" name="email" placeholder="Insira seu nome de usuário">
+            <p>Senha</p>
+            <input type="password" name="senha" placeholder="Insira sua senha">
+            <input type="submit" name="login" value="Login">
+            <a href="#">Esqueceu sua senha?</a><br>
+            <a href='@Url.Action("Index", "Cadastro")'>Ainda não possui uma conta?</a>
+        </form>
+    </div>
+</main>

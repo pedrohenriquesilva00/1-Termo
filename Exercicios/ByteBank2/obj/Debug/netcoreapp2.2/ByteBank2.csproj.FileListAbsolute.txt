@@ -1,0 +1,33 @@
+C:\Users\23853139876\Documents\Exercicios\ByteBank2\obj\Debug\netcoreapp2.2\ByteBank2.csprojAssemblyReference.cache
+C:\Users\23853139876\Documents\Exercicios\ByteBank2\obj\Debug\netcoreapp2.2\ByteBank2.csproj.CoreCompileInputs.cache
+C:\Users\23853139876\Documents\Exercicios\ByteBank2\obj\Debug\netcoreapp2.2\ByteBank2.AssemblyInfoInputs.cache
+C:\Users\23853139876\Documents\Exercicios\ByteBank2\obj\Debug\netcoreapp2.2\ByteBank2.AssemblyInfo.cs
+C:\Users\23853139876\Documents\Exercicios\ByteBank2\bin\Debug\netcoreapp2.2\ByteBank2.deps.json
+C:\Users\23853139876\Documents\Exercicios\ByteBank2\bin\Debug\netcoreapp2.2\ByteBank2.runtimeconfig.json
+C:\Users\23853139876\Documents\Exercicios\ByteBank2\bin\Debug\netcoreapp2.2\ByteBank2.runtimeconfig.dev.json
+C:\Users\23853139876\Documents\Exercicios\ByteBank2\bin\Debug\netcoreapp2.2\ByteBank2.dll
+C:\Users\23853139876\Documents\Exercicios\ByteBank2\bin\Debug\netcoreapp2.2\ByteBank2.pdb
+C:\Users\23853139876\Documents\Exercicios\ByteBank2\obj\Debug\netcoreapp2.2\ByteBank2.dll
+C:\Users\23853139876\Documents\Exercicios\ByteBank2\obj\Debug\netcoreapp2.2\ByteBank2.pdb
+C:\Users\pedro\Desktop\Exercicios\ByteBank2\bin\Debug\netcoreapp2.2\ByteBank2.deps.json
+C:\Users\pedro\Desktop\Exercicios\ByteBank2\bin\Debug\netcoreapp2.2\ByteBank2.runtimeconfig.json
+C:\Users\pedro\Desktop\Exercicios\ByteBank2\bin\Debug\netcoreapp2.2\ByteBank2.runtimeconfig.dev.json
+C:\Users\pedro\Desktop\Exercicios\ByteBank2\bin\Debug\netcoreapp2.2\ByteBank2.dll
+C:\Users\pedro\Desktop\Exercicios\ByteBank2\bin\Debug\netcoreapp2.2\ByteBank2.pdb
+C:\Users\pedro\Desktop\Exercicios\ByteBank2\obj\Debug\netcoreapp2.2\ByteBank2.csprojAssemblyReference.cache
+C:\Users\pedro\Desktop\Exercicios\ByteBank2\obj\Debug\netcoreapp2.2\ByteBank2.csproj.CoreCompileInputs.cache
+C:\Users\pedro\Desktop\Exercicios\ByteBank2\obj\Debug\netcoreapp2.2\ByteBank2.AssemblyInfoInputs.cache
+C:\Users\pedro\Desktop\Exercicios\ByteBank2\obj\Debug\netcoreapp2.2\ByteBank2.AssemblyInfo.cs
+C:\Users\pedro\Desktop\Exercicios\ByteBank2\obj\Debug\netcoreapp2.2\ByteBank2.dll
+C:\Users\pedro\Desktop\Exercicios\ByteBank2\obj\Debug\netcoreapp2.2\ByteBank2.pdb
+C:\Users\pedro\Documents\My Workspaces\Exercicios\ByteBank2\bin\Debug\netcoreapp2.2\ByteBank2.deps.json
+C:\Users\pedro\Documents\My Workspaces\Exercicios\ByteBank2\bin\Debug\netcoreapp2.2\ByteBank2.runtimeconfig.json
+C:\Users\pedro\Documents\My Workspaces\Exercicios\ByteBank2\bin\Debug\netcoreapp2.2\ByteBank2.runtimeconfig.dev.json
+C:\Users\pedro\Documents\My Workspaces\Exercicios\ByteBank2\bin\Debug\netcoreapp2.2\ByteBank2.dll
+C:\Users\pedro\Documents\My Workspaces\Exercicios\ByteBank2\bin\Debug\netcoreapp2.2\ByteBank2.pdb
+C:\Users\pedro\Documents\My Workspaces\Exercicios\ByteBank2\obj\Debug\netcoreapp2.2\ByteBank2.csprojAssemblyReference.cache
+C:\Users\pedro\Documents\My Workspaces\Exercicios\ByteBank2\obj\Debug\netcoreapp2.2\ByteBank2.csproj.CoreCompileInputs.cache
+C:\Users\pedro\Documents\My Workspaces\Exercicios\ByteBank2\obj\Debug\netcoreapp2.2\ByteBank2.AssemblyInfoInputs.cache
+C:\Users\pedro\Documents\My Workspaces\Exercicios\ByteBank2\obj\Debug\netcoreapp2.2\ByteBank2.AssemblyInfo.cs
+C:\Users\pedro\Documents\My Workspaces\Exercicios\ByteBank2\obj\Debug\netcoreapp2.2\ByteBank2.dll
+C:\Users\pedro\Documents\My Workspaces\Exercicios\ByteBank2\obj\Debug\netcoreapp2.2\ByteBank2.pdb

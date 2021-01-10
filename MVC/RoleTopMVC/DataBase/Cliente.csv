@@ -1,0 +1,3 @@
+tipo_usuario=0;nome=Administrador;email=admin@gmail.com;senha=123123;endereco=;telefone=;data_nascimento=01/01/0001 00:00:00
+tipo_usuario=1;nome=Pedro Henrique da Silva;data_nascimento=30/12/2000 00:00:00;email=pedro@123.com;senha=123123123;
+tipo_usuario=1;nome=Alexandre Fukaya;data_nascimento=12/02/2000 00:00:00;email=alexandre@123.com;senha=123123123;

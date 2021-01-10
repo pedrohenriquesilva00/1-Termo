@@ -1,0 +1,640 @@
+/* Global site sem margem */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #7d0093;
+    font-family: 'Arial', 'Times New Roman';
+}
+
+p{
+    text-align: justify;
+}
+
+h2, h3, h4, h5, h6{
+    font-family: '&quot', 'Times New Roman',
+}
+
+/********************************************************************
+            FORMATAÇÃO DA LOGO DO SITE
+*******************************************************************/
+
+#logo >img {
+    width: 9.3em;
+}
+/******************************************************************************
+            INÍCO DAS NAVS: Menu de navegação
+******************************************************************************/
+nav {
+    background-color: #7d0093;
+    width: 100%;
+    z-index: 999;
+}
+
+nav #bt-mobile-menu {
+    display: none;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1em;
+    list-style-type: none;
+}
+
+nav ul > li {
+    width: 100%;
+    text-align: center;
+}
+
+nav ul > li > a {
+    padding: 0.4em;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+nav ul > li > a:hover {
+    background-color: black;
+    color: white;
+}
+/******************************************************************************
+            FORMATAÇÃO DO BANNER
+******************************************************************************/
+#banner-area {
+    background-image: url(img/salão\ de\ festas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#banner {
+    width: 100%;
+}
+
+.parallax{
+    background-image: url(../img/salão\ de\ festas.jpg);
+    min-height: 650px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/******************************************************************************
+            FORMATAÇÃO DOS SHOWS
+******************************************************************************/
+#shows h1{
+    margin: 0.5em;
+    border-top: 3px solid #000000;
+    border-bottom: 3px solid #000000;
+    font-size: 2.5em;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+}
+
+#shows div {
+    display: flex;
+    justify-content: center;
+}
+#shows div img{
+    width: 50em;
+    height: 30em;
+}
+
+/*******************************************************************************
+            FORMATAÇÃO DOS TEXTOS
+*******************************************************************************/
+
+#texto h1 {
+    margin: 0.5em;
+    border-top: 3px solid #000000;
+    border-bottom: 3px solid #000000;
+    font-size: 2.5em;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+}
+
+#texto p{
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+    font-size: 1.0em;
+}
+
+#texto >img{
+    padding-left: 20em;
+    background-position: center;
+}
+
+.container{
+    text-align: center;
+}
+/*********************************************************************************
+            FORMATAÇÃO DOS SERVIÇOS ADICIONAIS
+**********************************************************************************/
+#servicos h1 {
+    margin: 0.5em;
+    border-top: 3px solid #000000;
+    font-size: 2.5em;
+    color: #ffffff;
+    text-align: center;
+}
+
+#som {
+    text-align: center;
+}
+
+#servicos p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.0em;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container2 >div>img {
+    margin: 0 1em;
+}
+
+
+/***********************************************************************************
+            FORMATAÇÃO DAS REDES SOCIAIS
+***********************************************************************************/
+
+#social h1 {
+    margin: 0.5em;
+    border-top: 3px solid #000000;
+    font-size: 2.5em;
+    color: #ffffff;
+    text-align: center;
+}
+
+.servicos {
+    text-align: center;
+}
+
+.foto-legenda2{
+    text-align: center;
+}
+
+figure.foto-legenda2 figcaption{
+    font-size: 1em;
+    color: #ffffff;
+}
+figure.foto-legenda2 figcaption a{
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+/************************************************
+            FORMATAÇÃO DA LOCALIZAÇÃO
+************************************************/
+#localizacao h1 {
+    margin: 0.5em;
+    border-top: 3px solid #000000;
+    border-bottom: 3px solid #000000;
+    font-size: 2.5em;
+    color: #ffffff;
+    text-align: center;
+}
+
+#localizacao h3{
+    font-size: 1.5em;
+    color: #ffffff;
+    text-align: center;
+}
+
+#local iframe{
+    width: 100%;
+    height: 20em;
+    display: flex;
+    align-self: center;
+}
+
+
+/*************************************************
+            FORMATAÇÃO DO RODAPÉ
+*************************************************/
+footer#rodape {
+    clear: both;
+    background-color: #000000;
+}
+
+footer#rodape p{
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.0em;
+}
+
+footer#rodape a{
+    clear: both;
+    font-size: 1.0em;
+    color: black;
+}
+
+footer#direitos {
+    clear: both;
+    text-align: center;
+    background-color: #000000;
+}
+
+footer#direitos p {
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.0em;
+}
+
+footer#direitos a{
+    margin: 0.3em;
+    text-align: center;
+    font-size: 1.5em;
+    color: #ffc600;
+    padding: 0em;
+    background-color: #000000;
+}
+
+/**********************************************
+            Media Query Desktops apenas a logo, efeito parallax do banner e imagem do jorge e Mateus foram aplicadas
+**********************************************/
+@media (min-width: 1300px)
+{
+    #logo >img {
+        width: 11em;
+    }
+    
+    .parallax{
+        min-height: 750px;
+    }
+    #shows div img{
+        width: 70em;
+        height: 40em;
+    }
+    .container2 >div>img {
+        width: 500px;
+        height: 15em;
+    }
+    #som > img {
+        width: 500px;
+        height: 15em;
+    }
+}
+@media (max-width: 1200px){
+    #logo >img {
+        width: 10em;
+    }
+    
+    .parallax{
+        min-height: 600px;
+    }
+    #shows div img{
+        width: 48em;
+        height: 28em;
+    }
+}    
+
+/***********************************************************************
+            Media Query: Desktops, ipads ou tablets de 10 polegadas pra cima. Mesmas acima, com apenas mudanças nos textos da página. 
+************************************************************************/
+@media (max-width: 1000px) {
+    #logo >img {
+        width: 8em;
+    }
+    .parallax{
+        min-height: 550px;
+    }
+    #shows div img{
+        width: 40em;
+        height: 25em;
+    }
+    #shows h1{
+        font-size: 2em;
+    }
+    #texto h1 {
+        font-size: 2em;
+    }
+    #servicos h1 {
+        font-size: 2em;
+    }
+    #social h1 {
+        font-size: 2em;
+    }
+    #localizacao h1 {
+        font-size: 2em;
+    }
+    
+    #localizacao h3{
+        font-size: 1em;
+    }
+}
+
+/******************************************************************************
+            Media Query: Tablets, mesmas da primeira Media Query.
+******************************************************************************/
+@media (max-width: 900px) {
+    #logo >img {
+        width: 8em;
+    }
+    
+    .parallax{
+        min-height: 450px;
+    }
+    #shows div img{
+        width: 40em;
+        height: 20em;
+    }
+}
+
+/*******************************************************************************
+            Media Query: Ipads,mesmas acima, com pequenas mudanças nos tamanhos.
+*******************************************************************************/
+@media (max-width: 768px) {
+    #logo >img {
+        width: 6em;
+    }
+    .parallax{
+        min-height: 400px;
+    }
+    #shows div img{
+        width: 35em;
+        height: 15em;
+    }
+}
+
+/*******************************************************************************
+            Media Query: Mobile todas as mudanças anteriores com acréscimo do botão do JavaScript. Não está na ordem.
+*******************************************************************************/
+@media (max-width: 414px) {
+    #logo >img {
+        width: 50px;
+        height: 50px;
+        margin: 0px 350px;
+    }
+    .fa-bars{
+        color: white;
+        margin-top: -5px;
+    }
+    #shows div img{
+        width: 100%;
+        height: 14em;
+    }
+    .container2 >div>img {
+        width: 85%;
+        height: 10em;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1.1em;
+        list-style-type: none;
+    }
+    
+    nav ul > li {
+        width: 100%;
+        text-align: center;
+    }
+    
+    nav ul > li > a {
+        padding: 0.4em;
+        display: flex;
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+    }
+    nav a{
+        display: flex;
+        justify-content: flex-end;
+        height: 20px;
+    }
+    
+    nav ul > li > a:hover {
+        background-color: #ffc600;
+        color: black;
+    }
+    nav #bt-mobile-menu {
+        display: block;
+    }
+
+    nav .bt-common-menu {
+        display: none;
+    }
+
+    nav .bt-common-menu.active {
+        display: block;
+    }
+
+    nav ul.mobile-mode {
+        display: flex;
+        flex-direction: column;
+    }
+    .parallax{
+        background-image: url(../img/salão\ de\ festas.jpg);
+        min-height: 270px;
+        background-attachment: initial;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #shows h1{
+        font-size: 1.5em;
+    }
+    #texto h1 {
+        font-size: 1.5em;
+    }
+    #servicos h1 {
+        font-size: 1.5em;
+    }
+    #social h1 {
+        font-size: 1.5em;
+    }
+    #localizacao h1 {
+        font-size: 1.5em;
+    }
+    
+    #localizacao h3{
+        font-size: 1em;
+    }
+    #texto p{
+        font-size: .7em;
+    }
+    #servicos p{
+        font-size: .7em;
+    }
+    #localizacao h3{
+        font-size: .7em;
+    }
+    footer#rodape p{
+        text-align: center;
+        color: #ffffff;
+        font-size: 10px;
+    }
+    footer#direitos p {
+        font-size: 10px;
+    }
+}
+
+/********************************************************************************
+            Media Query: Dispositivos mobile um pouco menores
+*********************************************************************************/
+@media (max-width: 375px) {
+    #logo >img {
+        width: 50px;
+        height: 50px;
+        margin: 0px 305px;
+    }
+    footer#rodape p{
+        text-align: center;
+        color: #ffffff;
+        font-size: 10px;
+    }
+    footer#direitos p {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 360px) {
+    #logo >img {
+        width: 50px;
+        height: 50px;
+        margin: 0px 305px;
+    }
+    .fa-bars{
+        color: white;
+        margin-top: -5px;
+    }
+    #shows div img{
+        width: 100%;
+        height: 12em;
+    }
+    .container2 >div>img {
+        width: 85%;
+        height: 10em;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1.1em;
+        list-style-type: none;
+    }
+    
+    nav ul > li {
+        width: 100%;
+        text-align: center;
+    }
+    
+    nav ul > li > a {
+        padding: 0.4em;
+        display: flex;
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+    }
+    nav a{
+        display: flex;
+        justify-content: flex-end;
+        height: 20px;
+    }
+    
+    nav ul > li > a:hover {
+        background-color: #ffc600;
+        color: black;
+    }
+    nav #bt-mobile-menu {
+        display: block;
+    }
+
+    nav .bt-common-menu {
+        display: none;
+    }
+    
+    nav .bt-common-menu.active {
+        display: block;
+    }
+
+    nav ul.mobile-mode {
+        display: flex;
+        flex-direction: column;
+    }
+    .parallax{
+        background-image: url(../img/salão\ de\ festas.jpg);
+        min-height: 257px;
+        background-attachment: initial;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #shows h1{
+        font-size: 1.5em;
+    }
+    #texto h1 {
+        font-size: 1.5em;
+    }
+    #servicos h1 {
+        font-size: 1.5em;
+    }
+    #social h1 {
+        font-size: 1.5em;
+    }
+    #localizacao h1 {
+        font-size: 1.5em;
+    }
+    
+    #localizacao h3{
+        font-size: 1em;
+    }
+    #texto p{
+        font-size: .7em;
+    }
+    #servicos p{
+        font-size: .7em;
+    }
+    #localizacao h3{
+        font-size: .7em;
+    }
+    footer#rodape p{
+        text-align: center;
+        color: #ffffff;
+        font-size: 10px;
+    }
+    footer#direitos p {
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width: 320px) {
+    #logo >img {
+        width: 50px;
+        height: 50px;
+        margin: 0px 265px;
+    }
+    nav ul > li > a {
+        color: white;
+    }
+    footer#rodape p{
+        text-align: center;
+        color: #ffffff;
+        font-size: 10px;
+    }
+    footer#direitos p {
+        font-size: 10px;
+    }
+}
+/*******************************************************************************
+            Fim do Media Query!
+*********************************************************************************/

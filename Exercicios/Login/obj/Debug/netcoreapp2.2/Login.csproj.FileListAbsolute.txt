@@ -1,0 +1,34 @@
+C:\Users\23853139876\Documents\Exercícios\Login\bin\Debug\netcoreapp2.2\Login.deps.json
+C:\Users\23853139876\Documents\Exercícios\Login\bin\Debug\netcoreapp2.2\Login.runtimeconfig.json
+C:\Users\23853139876\Documents\Exercícios\Login\bin\Debug\netcoreapp2.2\Login.runtimeconfig.dev.json
+C:\Users\23853139876\Documents\Exercícios\Login\bin\Debug\netcoreapp2.2\Login.dll
+C:\Users\23853139876\Documents\Exercícios\Login\bin\Debug\netcoreapp2.2\Login.pdb
+C:\Users\23853139876\Documents\Exercícios\Login\obj\Debug\netcoreapp2.2\Login.csprojAssemblyReference.cache
+C:\Users\23853139876\Documents\Exercícios\Login\obj\Debug\netcoreapp2.2\Login.csproj.CoreCompileInputs.cache
+C:\Users\23853139876\Documents\Exercícios\Login\obj\Debug\netcoreapp2.2\Login.AssemblyInfoInputs.cache
+C:\Users\23853139876\Documents\Exercícios\Login\obj\Debug\netcoreapp2.2\Login.AssemblyInfo.cs
+C:\Users\23853139876\Documents\Exercícios\Login\obj\Debug\netcoreapp2.2\Login.dll
+C:\Users\23853139876\Documents\Exercícios\Login\obj\Debug\netcoreapp2.2\Login.pdb
+C:\Users\pedro\Desktop\Exercicios\Login\bin\Debug\netcoreapp2.2\Login.deps.json
+C:\Users\pedro\Desktop\Exercicios\Login\bin\Debug\netcoreapp2.2\Login.runtimeconfig.json
+C:\Users\pedro\Desktop\Exercicios\Login\bin\Debug\netcoreapp2.2\Login.runtimeconfig.dev.json
+C:\Users\pedro\Desktop\Exercicios\Login\bin\Debug\netcoreapp2.2\Login.dll
+C:\Users\pedro\Desktop\Exercicios\Login\bin\Debug\netcoreapp2.2\Login.pdb
+C:\Users\pedro\Desktop\Exercicios\Login\obj\Debug\netcoreapp2.2\Login.csprojAssemblyReference.cache
+C:\Users\pedro\Desktop\Exercicios\Login\obj\Debug\netcoreapp2.2\Login.csproj.CoreCompileInputs.cache
+C:\Users\pedro\Desktop\Exercicios\Login\obj\Debug\netcoreapp2.2\Login.AssemblyInfoInputs.cache
+C:\Users\pedro\Desktop\Exercicios\Login\obj\Debug\netcoreapp2.2\Login.AssemblyInfo.cs
+C:\Users\pedro\Desktop\Exercicios\Login\obj\Debug\netcoreapp2.2\Login.dll
+C:\Users\pedro\Desktop\Exercicios\Login\obj\Debug\netcoreapp2.2\Login.pdb
+C:\Users\pedro\Documents\1 Termo DEV\Exercicios\Login\bin\Debug\netcoreapp2.2\Login.deps.json
+C:\Users\pedro\Documents\1 Termo DEV\Exercicios\Login\bin\Debug\netcoreapp2.2\Login.runtimeconfig.json
+C:\Users\pedro\Documents\1 Termo DEV\Exercicios\Login\bin\Debug\netcoreapp2.2\Login.runtimeconfig.dev.json
+C:\Users\pedro\Documents\1 Termo DEV\Exercicios\Login\bin\Debug\netcoreapp2.2\Login.dll
+C:\Users\pedro\Documents\1 Termo DEV\Exercicios\Login\bin\Debug\netcoreapp2.2\Login.pdb
+C:\Users\pedro\Documents\1 Termo DEV\Exercicios\Login\obj\Debug\netcoreapp2.2\Login.csprojAssemblyReference.cache
+C:\Users\pedro\Documents\1 Termo DEV\Exercicios\Login\obj\Debug\netcoreapp2.2\Login.AssemblyInfoInputs.cache
+C:\Users\pedro\Documents\1 Termo DEV\Exercicios\Login\obj\Debug\netcoreapp2.2\Login.AssemblyInfo.cs
+C:\Users\pedro\Documents\1 Termo DEV\Exercicios\Login\obj\Debug\netcoreapp2.2\Login.csproj.CoreCompileInputs.cache
+C:\Users\pedro\Documents\1 Termo DEV\Exercicios\Login\obj\Debug\netcoreapp2.2\Login.dll
+C:\Users\pedro\Documents\1 Termo DEV\Exercicios\Login\obj\Debug\netcoreapp2.2\Login.pdb
+C:\Users\pedro\Documents\1 Termo DEV\Exercicios\Login\obj\Debug\netcoreapp2.2\Login.genruntimeconfig.cache

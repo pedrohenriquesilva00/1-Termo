@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ffffff;
+    font-family: '&quot', 'Times New Roman';
+}
+
+p{
+    text-align: justify;
+}
+
+h2, h3, h4, h5, h6{
+    font-family: '&quot', 'Times New Roman',
+}
+
+/********************************************************************
+            FORMATAÇÃO DA LOGO DO SITE
+*******************************************************************/
+
+#logo >img {
+    widows: 300px;
+    padding-right: .60em;
+    padding-left: .7em;
+    height: 10em;
+}
+
+/**********************************************************************
+            FORMATAÇÃO DO MENU DE NAVEGAÇÃO
+**********************************************************************/
+#menu{
+    display: none;
+    background-color: #ffc600;
+    width: 100%;
+    display: block;
+    justify-content: space-between;
+}
+
+#menu ul {
+    text-transform: uppercase;
+    padding: 0px;
+    position: absolute;
+    top: 70px;
+    left: 20%;
+    margin: 1px;
+    list-style: none;
+}
+
+#menu li:hover{
+    background-color: #ffc600;
+}
+
+#menu li{
+    display:inline-block;
+    background-color: #000000;
+    margin: 0.4em;
+    padding: 0.3em;
+    font-size: 1.3em;
+    transition: 1s;
+}
+
+
+#menu a{
+    padding: 2px 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/********************************************************
+            FORMATAÇÃO DE FEEDBACKS
+********************************************************/
+
+.container {
+    justify-content: center;
+    text-align: center;
+}
+
+.container h1{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.container table { 
+    margin: 0em 25em;
+    justify-content: center;
+    text-align: center;
+}
+
+.container2 {
+    justify-content: center;
+    text-align: center;
+}
+
+.container2 h1{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.container2 table { 
+    margin: 0em 25em;
+    justify-content: center;
+    text-align: center;
+}
+
+.container3 {
+    justify-content: center;
+    text-align: center;
+}
+
+.container3 h1{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.container3 table { 
+    margin: 0em 25em;
+    justify-content: center;
+    text-align: center;
+}
+
+.container4 {
+    justify-content: center;
+    text-align: center;
+}
+
+.container4 h1{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.container4 table { 
+    margin: 0em 25em;
+    justify-content: center;
+    text-align: center;
+}
+
+.container5 {
+    justify-content: center;
+    text-align: center;
+}
+
+.container5 h1{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.container5 table { 
+    margin: 0em 25em;
+    justify-content: center;
+    text-align: center;
+}
+
+.container6 {
+    justify-content: center;
+    text-align: center;
+}
+
+.container6 h1{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.container6 table { 
+    margin: 0em 25em;
+    justify-content: center;
+    text-align: center;
+}
+
+.container7 {
+    justify-content: center;
+    text-align: center;
+}
+
+.container7 h1{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.container7 table { 
+    margin: 0em 25em;
+    justify-content: center;
+    text-align: center;
+}
+
+.container8 {
+    justify-content: center;
+    text-align: center;
+}
+
+.container8 h1{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.container8 table { 
+    margin: 0em 25em;
+    justify-content: center;
+    text-align: center;
+}

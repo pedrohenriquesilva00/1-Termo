@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Galeria</title>
+    <link rel="stylesheet" type="text/css" href="css/galeria.css" />
+    <script src="https://kit.fontawesome.com/349a64cb04.js"></script>
+</head>
+
+<body>
+<!-------------------------------------------------------
+        CABEÇALHO
+-------------------------------------------------------->
+<header>
+    <nav id="menu">
+            <a id="logo"> <img src="img/logo.png"></a>
+        <ul>
+            <li id="bt-mobile-menu">
+                        <!-- HTML para colocar os ícones do FA -->
+                        <a href="javascript:void(0);" class="icon" onclick="toggleMobileMenu()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </li>
+            <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="index.html">Início </a></li>
+            <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="login.html">Login</a></li>
+            <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="galeria.html">Galeria</a></li>
+            <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="administrador.html" target="blank">Administrador</a></li>
+            <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="agende-ja.html">Agende já</a></li>
+        </ul>
+    </nav>
+</header>
+
+        <div id="corporativo">
+            <h1>Eventos corporativos</h1>
+            <img src="img/corporativo.jpg" />
+            <img src="img/corporativo2.jpg" />
+            <img src="img/corporativo3.jpg" />
+            <img src="img/corporativo4.jpg" />
+            <img src="img/corporativo5.jpg" />
+            <img src="img/corporativo6.jpg" />
+        </div>
+
+    <div id="casamento">
+        <h1>Festas de casamento</h1>
+        <img src="img/casamento.jpg" />
+        <img src="img/casamento2.jpg" />
+        <img src="img/casamento3.jpg" />
+        <img src="img/casamento4.jpg" />
+        <img src="img/casamento5.jpg" />
+        <img src="img/casamento6.jpg" />
+    </div>
+
+    <div id="palestras">
+        <h1>Palestras ao público</h1>
+        <img src="img/palestras.jpg" />
+        <img src="img/palestras2.jpg" />
+        <img src="img/palestras3.jpg" />
+        <img src="img/palestras4.jpg" />
+        <img src="img/palestras5.jpg" />
+        <img src="img/palestras6.jpeg" />
+    </div>
+
+    <div id="dancar">
+        <h1>Ótimo para dançar</h1>
+        <img src="img/dançar.jpg" />
+        <img src="img/dançar2.jpg" />
+        <img src="img/dançar3.jpg" />
+        <img src="img/dançar4.jpg" />
+        <img src="img/dançar5.jpg" />
+        <img src="img/dançar6.jpg" />
+    </div>
+
+    <div id="shows">
+        <h1>Shows de vários tipos</h1>
+        <img src="img/show.jpg" />
+        <img src="img/show2.jpg" />
+        <img src="img/show3.jpg" />
+        <img src="img/show4.jpg" />
+        <img src="img/show5.jpg" />
+        <img src="img/show6.jpeg" />
+    </div>
+
+<!-----------------------------------------------------------------------------------
+                    FORMATAÇÃO DO RODAPÉ
+--------------------------------------------------------------------------------------->
+<footer id="rodape">
+
+        <p>Avenida Barão de Limeira, 539 - Santa Cecília - São
+            <br>
+            Paulo/SP -
+            <br>
+            CEP: 1202-001
+            <br>
+            Telefone: (11) 3273-5000
+            <br>
+            Email: roletop@email.com.br
+        </p>
+    </footer>
+    <footer id="direitos">
+        <p>Copyright 2019 @ Todos os direitos reservados.</p>
+        <br/>
+        <a href="#">Voltar para o topo!</a>
+    </footer>
+<!----------------------------------------------------------------------------
+            JAVASCRIPT
+------------------------------------------------------------------------------>
+    <script>
+        function toggleMobileMenu() {
+            var ul = document.querySelector("nav ul");
+            var commonButtons = document.querySelectorAll("nav .bt-common-menu");
+            var icon = document.querySelector(".icon > i");
+            ul.classList.toggle("mobile-mode");
+            if (icon.classList.contains("fa-bars")) {
+                icon.classList.remove("fa-bars");
+                icon.classList.remove("fa");
+                icon.classList.add("fas");
+                icon.classList.add("fa-skull");
+            } else {
+                icon.classList.remove("fas");
+                icon.classList.remove("fa-skull");
+                icon.classList.add("fa");
+                icon.classList.add("fa-bars");
+            }
+            for (var button of commonButtons) {
+                button.classList.toggle("active");
+            }
+        }
+        
+    </script>
+    </body>
+
+</html>

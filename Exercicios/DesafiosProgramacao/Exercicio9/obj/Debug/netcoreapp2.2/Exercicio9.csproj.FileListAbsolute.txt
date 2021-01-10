@@ -1,0 +1,11 @@
+C:\Users\23853139876\Documents\Exercicios\DesafiosProgramacao\Exercicio9\bin\Debug\netcoreapp2.2\Exercicio9.deps.json
+C:\Users\23853139876\Documents\Exercicios\DesafiosProgramacao\Exercicio9\bin\Debug\netcoreapp2.2\Exercicio9.runtimeconfig.json
+C:\Users\23853139876\Documents\Exercicios\DesafiosProgramacao\Exercicio9\bin\Debug\netcoreapp2.2\Exercicio9.runtimeconfig.dev.json
+C:\Users\23853139876\Documents\Exercicios\DesafiosProgramacao\Exercicio9\bin\Debug\netcoreapp2.2\Exercicio9.dll
+C:\Users\23853139876\Documents\Exercicios\DesafiosProgramacao\Exercicio9\bin\Debug\netcoreapp2.2\Exercicio9.pdb
+C:\Users\23853139876\Documents\Exercicios\DesafiosProgramacao\Exercicio9\obj\Debug\netcoreapp2.2\Exercicio9.csprojAssemblyReference.cache
+C:\Users\23853139876\Documents\Exercicios\DesafiosProgramacao\Exercicio9\obj\Debug\netcoreapp2.2\Exercicio9.csproj.CoreCompileInputs.cache
+C:\Users\23853139876\Documents\Exercicios\DesafiosProgramacao\Exercicio9\obj\Debug\netcoreapp2.2\Exercicio9.AssemblyInfoInputs.cache
+C:\Users\23853139876\Documents\Exercicios\DesafiosProgramacao\Exercicio9\obj\Debug\netcoreapp2.2\Exercicio9.AssemblyInfo.cs
+C:\Users\23853139876\Documents\Exercicios\DesafiosProgramacao\Exercicio9\obj\Debug\netcoreapp2.2\Exercicio9.dll
+C:\Users\23853139876\Documents\Exercicios\DesafiosProgramacao\Exercicio9\obj\Debug\netcoreapp2.2\Exercicio9.pdb

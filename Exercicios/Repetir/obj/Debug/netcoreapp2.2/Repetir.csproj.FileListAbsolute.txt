@@ -1,0 +1,11 @@
+C:\Users\23853139876\Documents\Exercícios\Repetir\bin\Debug\netcoreapp2.2\Repetir.deps.json
+C:\Users\23853139876\Documents\Exercícios\Repetir\bin\Debug\netcoreapp2.2\Repetir.runtimeconfig.json
+C:\Users\23853139876\Documents\Exercícios\Repetir\bin\Debug\netcoreapp2.2\Repetir.runtimeconfig.dev.json
+C:\Users\23853139876\Documents\Exercícios\Repetir\bin\Debug\netcoreapp2.2\Repetir.dll
+C:\Users\23853139876\Documents\Exercícios\Repetir\bin\Debug\netcoreapp2.2\Repetir.pdb
+C:\Users\23853139876\Documents\Exercícios\Repetir\obj\Debug\netcoreapp2.2\Repetir.csprojAssemblyReference.cache
+C:\Users\23853139876\Documents\Exercícios\Repetir\obj\Debug\netcoreapp2.2\Repetir.csproj.CoreCompileInputs.cache
+C:\Users\23853139876\Documents\Exercícios\Repetir\obj\Debug\netcoreapp2.2\Repetir.AssemblyInfoInputs.cache
+C:\Users\23853139876\Documents\Exercícios\Repetir\obj\Debug\netcoreapp2.2\Repetir.AssemblyInfo.cs
+C:\Users\23853139876\Documents\Exercícios\Repetir\obj\Debug\netcoreapp2.2\Repetir.dll
+C:\Users\23853139876\Documents\Exercícios\Repetir\obj\Debug\netcoreapp2.2\Repetir.pdb

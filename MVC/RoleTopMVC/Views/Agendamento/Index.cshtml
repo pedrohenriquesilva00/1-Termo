@@ -1,0 +1,63 @@
+@model RoleTopMVC.ViewModels.AgendamentoViewModels
+<main>
+        <div class="agendar">
+        <h2>Escolha uma data</h2>
+    <form method="POST" action='@Url.Action("Registrar", "Agendamento")'>
+        <p>Seu Nome ou da Empresa</p>
+        <input type="text" name="nome" placeholder="Insira seu nome">
+
+        <p>Email</p>
+        <input type="email" name="email" placeholder="jose123@gmail.com">
+
+        <p>Telefone</p>
+        <input type="text" name="telefone" placeholder="Insira seu Telefone">
+
+        <p>CNPJ da Empresa</p>
+        <input type="text" name="cnpj">
+
+            <div>
+        <label for="fixo">Tema do Evento</label>
+        <select id="fixo" required name="temaevento">
+            <option value="" disabled selected>Selecione</option>
+            @foreach (var aluguel in @Model.Alugueis)
+            {
+                <option value=@aluguel.Nome>@aluguel.Nome Por @aluguel.Preco
+                    
+                </option>
+            }
+        </select>
+            </div>
+                <div>
+                    <label for="convidados">Quantidade de convidados</label>
+                        <input type="number" name="quantidadepessoas">
+                    </select>
+                </div>
+    <div>
+        <label for="pacote">Incluir pacote de som e iluminação**</label>
+        <select id="pacote" required name="pacote">
+            <option value="" disabled selected>Selecione</option>
+            @foreach (var servico in @Model.Servicos)
+            {
+                <option value=@servico.Nome>@servico.Nome Por @servico.Preco
+
+                </option>
+            }
+        </select>
+    </div>
+    <div>
+        <label for="acesso">Controle de acesso</label>
+        <select id="acesso" required name="tipoevento">
+            <option value="publico">Público</option>
+            <option value="privado">Privado</option>
+        </select>
+    <br>
+    <p>Data do evento</p>
+    <input type="date" name="datadoevento">
+    <br/>
+    <input type="submit" name="" value="Enviar">
+    <p>* O aluguel do espaço contém o preço fixo de 10000 reais</p>
+    <br>
+    <p>** Os adicionais contém o preço de 2500 cada. Se optar pelo pacote completo, sai por 5000 reais</p>
+    </form>
+</div>
+</main>

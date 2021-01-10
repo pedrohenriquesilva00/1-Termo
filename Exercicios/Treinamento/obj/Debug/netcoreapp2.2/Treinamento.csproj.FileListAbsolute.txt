@@ -1,0 +1,11 @@
+C:\Users\pedro\Desktop\Exercicios\Treinamento\bin\Debug\netcoreapp2.2\Treinamento.deps.json
+C:\Users\pedro\Desktop\Exercicios\Treinamento\bin\Debug\netcoreapp2.2\Treinamento.runtimeconfig.json
+C:\Users\pedro\Desktop\Exercicios\Treinamento\bin\Debug\netcoreapp2.2\Treinamento.runtimeconfig.dev.json
+C:\Users\pedro\Desktop\Exercicios\Treinamento\bin\Debug\netcoreapp2.2\Treinamento.dll
+C:\Users\pedro\Desktop\Exercicios\Treinamento\bin\Debug\netcoreapp2.2\Treinamento.pdb
+C:\Users\pedro\Desktop\Exercicios\Treinamento\obj\Debug\netcoreapp2.2\Treinamento.csprojAssemblyReference.cache
+C:\Users\pedro\Desktop\Exercicios\Treinamento\obj\Debug\netcoreapp2.2\Treinamento.csproj.CoreCompileInputs.cache
+C:\Users\pedro\Desktop\Exercicios\Treinamento\obj\Debug\netcoreapp2.2\Treinamento.AssemblyInfoInputs.cache
+C:\Users\pedro\Desktop\Exercicios\Treinamento\obj\Debug\netcoreapp2.2\Treinamento.AssemblyInfo.cs
+C:\Users\pedro\Desktop\Exercicios\Treinamento\obj\Debug\netcoreapp2.2\Treinamento.dll
+C:\Users\pedro\Desktop\Exercicios\Treinamento\obj\Debug\netcoreapp2.2\Treinamento.pdb

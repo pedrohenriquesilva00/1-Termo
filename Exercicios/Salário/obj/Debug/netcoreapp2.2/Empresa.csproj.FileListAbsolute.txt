@@ -1,0 +1,44 @@
+C:\Users\23853139876\Documents\Exercícios\Empresa\obj\Debug\netcoreapp2.2\Empresa.csprojAssemblyReference.cache
+C:\Users\23853139876\Documents\Exercícios\Empresa\obj\Debug\netcoreapp2.2\Empresa.csproj.CoreCompileInputs.cache
+C:\Users\23853139876\Documents\Exercícios\Empresa\obj\Debug\netcoreapp2.2\Empresa.AssemblyInfoInputs.cache
+C:\Users\23853139876\Documents\Exercícios\Empresa\obj\Debug\netcoreapp2.2\Empresa.AssemblyInfo.cs
+C:\Users\23853139876\Documents\Exercícios\Empresa\bin\Debug\netcoreapp2.2\Empresa.deps.json
+C:\Users\23853139876\Documents\Exercícios\Empresa\bin\Debug\netcoreapp2.2\Empresa.runtimeconfig.json
+C:\Users\23853139876\Documents\Exercícios\Empresa\bin\Debug\netcoreapp2.2\Empresa.runtimeconfig.dev.json
+C:\Users\23853139876\Documents\Exercícios\Empresa\bin\Debug\netcoreapp2.2\Empresa.dll
+C:\Users\23853139876\Documents\Exercícios\Empresa\bin\Debug\netcoreapp2.2\Empresa.pdb
+C:\Users\23853139876\Documents\Exercícios\Empresa\obj\Debug\netcoreapp2.2\Empresa.dll
+C:\Users\23853139876\Documents\Exercícios\Empresa\obj\Debug\netcoreapp2.2\Empresa.pdb
+C:\Users\23853139876\Documents\Exercícios\Salário\bin\Debug\netcoreapp2.2\Empresa.deps.json
+C:\Users\23853139876\Documents\Exercícios\Salário\bin\Debug\netcoreapp2.2\Empresa.runtimeconfig.json
+C:\Users\23853139876\Documents\Exercícios\Salário\bin\Debug\netcoreapp2.2\Empresa.runtimeconfig.dev.json
+C:\Users\23853139876\Documents\Exercícios\Salário\bin\Debug\netcoreapp2.2\Empresa.dll
+C:\Users\23853139876\Documents\Exercícios\Salário\bin\Debug\netcoreapp2.2\Empresa.pdb
+C:\Users\23853139876\Documents\Exercícios\Salário\obj\Debug\netcoreapp2.2\Empresa.csprojAssemblyReference.cache
+C:\Users\23853139876\Documents\Exercícios\Salário\obj\Debug\netcoreapp2.2\Empresa.csproj.CoreCompileInputs.cache
+C:\Users\23853139876\Documents\Exercícios\Salário\obj\Debug\netcoreapp2.2\Empresa.AssemblyInfoInputs.cache
+C:\Users\23853139876\Documents\Exercícios\Salário\obj\Debug\netcoreapp2.2\Empresa.AssemblyInfo.cs
+C:\Users\23853139876\Documents\Exercícios\Salário\obj\Debug\netcoreapp2.2\Empresa.dll
+C:\Users\23853139876\Documents\Exercícios\Salário\obj\Debug\netcoreapp2.2\Empresa.pdb
+C:\Users\pedro\Desktop\Exercicios\Salário\bin\Debug\netcoreapp2.2\Empresa.deps.json
+C:\Users\pedro\Desktop\Exercicios\Salário\bin\Debug\netcoreapp2.2\Empresa.runtimeconfig.json
+C:\Users\pedro\Desktop\Exercicios\Salário\bin\Debug\netcoreapp2.2\Empresa.runtimeconfig.dev.json
+C:\Users\pedro\Desktop\Exercicios\Salário\bin\Debug\netcoreapp2.2\Empresa.dll
+C:\Users\pedro\Desktop\Exercicios\Salário\bin\Debug\netcoreapp2.2\Empresa.pdb
+C:\Users\pedro\Desktop\Exercicios\Salário\obj\Debug\netcoreapp2.2\Empresa.csprojAssemblyReference.cache
+C:\Users\pedro\Desktop\Exercicios\Salário\obj\Debug\netcoreapp2.2\Empresa.csproj.CoreCompileInputs.cache
+C:\Users\pedro\Desktop\Exercicios\Salário\obj\Debug\netcoreapp2.2\Empresa.AssemblyInfoInputs.cache
+C:\Users\pedro\Desktop\Exercicios\Salário\obj\Debug\netcoreapp2.2\Empresa.AssemblyInfo.cs
+C:\Users\pedro\Desktop\Exercicios\Salário\obj\Debug\netcoreapp2.2\Empresa.dll
+C:\Users\pedro\Desktop\Exercicios\Salário\obj\Debug\netcoreapp2.2\Empresa.pdb
+C:\Users\pedro\Documents\My Workspaces\Exercicios\Salário\bin\Debug\netcoreapp2.2\Empresa.deps.json
+C:\Users\pedro\Documents\My Workspaces\Exercicios\Salário\bin\Debug\netcoreapp2.2\Empresa.runtimeconfig.json
+C:\Users\pedro\Documents\My Workspaces\Exercicios\Salário\bin\Debug\netcoreapp2.2\Empresa.runtimeconfig.dev.json
+C:\Users\pedro\Documents\My Workspaces\Exercicios\Salário\bin\Debug\netcoreapp2.2\Empresa.dll
+C:\Users\pedro\Documents\My Workspaces\Exercicios\Salário\bin\Debug\netcoreapp2.2\Empresa.pdb
+C:\Users\pedro\Documents\My Workspaces\Exercicios\Salário\obj\Debug\netcoreapp2.2\Empresa.csprojAssemblyReference.cache
+C:\Users\pedro\Documents\My Workspaces\Exercicios\Salário\obj\Debug\netcoreapp2.2\Empresa.csproj.CoreCompileInputs.cache
+C:\Users\pedro\Documents\My Workspaces\Exercicios\Salário\obj\Debug\netcoreapp2.2\Empresa.AssemblyInfoInputs.cache
+C:\Users\pedro\Documents\My Workspaces\Exercicios\Salário\obj\Debug\netcoreapp2.2\Empresa.AssemblyInfo.cs
+C:\Users\pedro\Documents\My Workspaces\Exercicios\Salário\obj\Debug\netcoreapp2.2\Empresa.dll
+C:\Users\pedro\Documents\My Workspaces\Exercicios\Salário\obj\Debug\netcoreapp2.2\Empresa.pdb

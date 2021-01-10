@@ -1,0 +1,472 @@
+/* Global site sem margem */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #7d0093;
+    font-family: 'Arial', 'Times New Roman';
+}
+
+p{
+    text-align: justify;
+}
+
+h2, h3, h4, h5, h6{
+    font-family: '&quot', 'Times New Roman',
+}
+
+/********************************************************************
+            FORMATAÇÃO DA LOGO DO SITE
+********************************************************************/
+
+#logo >img {
+    width: 9.3em;
+}
+/******************************************************************************
+            INÍCO DAS NAVS
+******************************************************************************/
+nav {
+    background-color: #7d0093;
+    width: 100%;
+    z-index: 999;
+}
+
+nav #bt-mobile-menu {
+    display: none;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1em;
+    list-style-type: none;
+}
+
+nav ul > li {
+    width: 100%;
+    text-align: center;
+}
+
+nav ul > li > a {
+    padding: 0.4em;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+nav ul > li > a:hover {
+    background-color: black;
+    color: white;
+}
+/****************************************************************
+            FORMATAÇÃO DO LOGIN
+****************************************************************/
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/party2.jpg);
+    background-size: cover;
+}
+.login {
+    width: 400px;
+    height: 500px;
+    border: 2px solid #000000;
+    border-radius: 80px 0px 80px 0px;
+    color: #000000;
+    background-color: rgba(0,0,5,0.8);
+    top: 365px;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 62px 28px;
+}
+.usuario{
+    border-radius: 50%;
+    position: relative;
+    top: -50px;
+    left: 125px;
+}
+
+h1{
+    color: #ffffff;
+    margin: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 20px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+}
+
+.login p{
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.login input{
+    width: 100%;
+    margin-bottom: 21px;
+}
+
+.login input[type="text"], input[type="password"] {
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+
+.login input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 35px;
+    color: #000000;
+    background: #ffffff;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.login input[type="submit"]:hover{
+    cursor: pointer;
+    background: #7d0093;
+    transition: 0.2s;
+}
+
+.login a{
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: white;
+    transition: 0.2s;
+}
+
+.login a:hover{
+    transition: 0.2s;
+    color: #7d0093;
+}
+
+/*******************************************************************************
+            Media Query dispositivos pequenos.
+*******************************************************************************/
+@media (max-width: 1500px) {
+    .login {
+        width: 340px;
+        height: 475px;
+        border: 2px solid #000000;
+        border-radius: 80px 0px 80px 0px;
+        color: #000000;
+        background-color: rgba(0,0,5,0.8);
+        top: 250px;
+        left: 50%;
+        position: relative;
+        transform: translate(-50%, -50%);
+        box-sizing: border-box;
+        padding: 60px 28px;
+    }
+    .usuario{
+        border-radius: 50%;
+        position: relative;
+        top: -50px;
+        left: 100px;
+    }
+    
+    h1{
+        color: #ffffff;
+        margin: 0;
+        padding-top: 0;
+        padding-left: 0;
+        padding-bottom: 20px;
+        letter-spacing: 10px;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 25px;
+    }
+    
+    .login p{
+        color: #ffffff;
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+    }
+    
+    .login input{
+        width: 100%;
+        margin-bottom: 21px;
+    }
+    
+    .login input[type="text"], input[type="password"] {
+        border: none;
+        border-bottom: 1px solid white;
+        background: transparent;
+        outline: none;
+        height: 40px;
+        color: white;
+        font-size: 16px;
+    }
+    
+    .login input[type="submit"] {
+        border: none;
+        outline: none;
+        height: 35px;
+        color: #000000;
+        background: #ffffff;
+        border-radius: 20px;
+        transition: 0.2s;
+    }
+    
+    .login input[type="submit"]:hover{
+        cursor: pointer;
+        background: #7d0093;
+        transition: 0.2s;
+    }
+    
+    .login a{
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 12px;
+        line-height: 20px;
+        color: white;
+        transition: 0.2s;
+    }
+    
+    .login a:hover{
+        transition: 0.2s;
+        color: #7d0093;
+    }
+}
+
+@media (max-width: 650px) {
+    #logo >img {
+        width: 60px;
+        height: 60px;
+        margin: 0px 575px;
+    }
+    .fa-bars{
+        color: white;
+        margin-top: -5px;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1.1em;
+        list-style-type: none;
+    }
+    
+    nav ul > li {
+        width: 100%;
+        text-align: center;
+    }
+    
+    nav ul > li > a {
+        padding: 0.4em;
+        display: flex;
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+    }
+    nav a{
+        display: flex;
+        justify-content: flex-end;
+        height: 25px;
+    }
+    
+    nav ul > li > a:hover {
+        background-color: #ffc600;
+        color: black;
+    }
+    nav #bt-mobile-menu {
+        display: block;
+    }
+
+    nav .bt-common-menu {
+        display: none;
+    }
+
+    nav .bt-common-menu.active {
+        display: block;
+    }
+
+    nav ul.mobile-mode {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 500px) {
+    #logo >img {
+        width: 60px;
+        height: 60px;
+        margin: 0px 425px;
+    }
+}
+
+@media (max-width: 414px) {
+    #logo >img {
+        width: 50px;
+        height: 50px;
+        margin: 0px 350px;
+    }
+    nav a{
+        height: 20px;
+    }
+    .login {
+        width: 340px;
+        height: 475px;
+        border: 2px solid #000000;
+        border-radius: 80px 0px 80px 0px;
+        color: #000000;
+        background-color: rgba(0,0,5,0.8);
+        top: 260px;
+        left: 50%;
+        position: relative;
+        transform: translate(-50%, -50%);
+        box-sizing: border-box;
+        padding: 60px 28px;
+    }
+    .usuario{
+        border-radius: 50%;
+        position: relative;
+        top: -50px;
+        left: 100px;
+    }
+    
+    h1{
+        color: #ffffff;
+        margin: 0;
+        padding-top: 0;
+        padding-left: 0;
+        padding-bottom: 20px;
+        letter-spacing: 10px;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 25px;
+    }
+    
+    .login p{
+        color: #ffffff;
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+    }
+    
+    .login input{
+        width: 100%;
+        margin-bottom: 21px;
+    }
+    
+    .login input[type="text"], input[type="password"] {
+        border: none;
+        border-bottom: 1px solid white;
+        background: transparent;
+        outline: none;
+        height: 40px;
+        color: white;
+        font-size: 16px;
+    }
+    
+    .login input[type="submit"] {
+        border: none;
+        outline: none;
+        height: 35px;
+        color: #000000;
+        background: #ffffff;
+        border-radius: 20px;
+        transition: 0.2s;
+    }
+    
+    .login input[type="submit"]:hover{
+        cursor: pointer;
+        background: #7d0093;
+        transition: 0.2s;
+    }
+    
+    .login a{
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 12px;
+        line-height: 20px;
+        color: white;
+        transition: 0.2s;
+    }
+    
+    .login a:hover{
+        transition: 0.2s;
+        color: #7d0093;
+    }
+}
+
+@media (max-width: 375px) {
+    #logo >img {
+        width: 50px;
+        height: 50px;
+        margin: 0px 320px;
+    }
+    nav a{
+        height: 20px;
+    }
+    .login {
+        width: 340px;
+        height: 475px;
+        border: 2px solid #000000;
+        border-radius: 80px 0px 80px 0px;
+        color: #000000;
+        background-color: rgba(0,0,5,0.8);
+        top: 270px;
+        left: 50%;
+        position: relative;
+        transform: translate(-50%, -50%);
+        box-sizing: border-box;
+        padding: 60px 28px;
+    }
+}
+
+@media (max-width: 360px) {
+    #logo >img {
+        width: 50px;
+        height: 50px;
+        margin: 0px 300px;
+    }
+    nav a{
+        height: 20px;
+    }
+    .login {
+        width: 340px;
+        height: 475px;
+        border: 2px solid #000000;
+        border-radius: 80px 0px 80px 0px;
+        color: #000000;
+        background-color: rgba(0,0,5,0.8);
+        top: 260px;
+        left: 50%;
+        position: relative;
+        transform: translate(-50%, -50%);
+        box-sizing: border-box;
+        padding: 60px 28px;
+    }
+}
+
+@media (max-width: 320px) {
+    #logo >img {
+        width: 50px;
+        height: 50px;
+        margin: 0px 260px;
+    }
+    nav a{
+        height: 20px;
+    }
+}

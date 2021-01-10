@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="css/login.css"/>
+    <script src="https://kit.fontawesome.com/349a64cb04.js"></script>
+</head>
+
+<body>
+<!-------------------------------------------------------
+        CABEÇALHO
+-------------------------------------------------------->
+<header>
+        <nav id="menu">
+                <a id="logo"> <img src="img/logo.png"></a>
+            <ul>
+                <li id="bt-mobile-menu">
+                            <!-- HTML para colocar os ícones do FA -->
+                            <a href="javascript:void(0);" class="icon" onclick="toggleMobileMenu()">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                        </li>
+                <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="index.html">Início </a></li>
+                <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="login.html">Login</a></li>
+                <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="galeria.html">Galeria</a></li>
+                <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="administrador.html" target="blank">Administrador</a></li>
+                <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href="agende-ja.html">Agende já</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<div class="login">
+    <img src="img/usuário.png"  class="usuario" width="85" height="85" alt="">
+    <h1>Login</h1>
+    <form>
+        <p>Usuário</p>
+        <input type="text" name="" placeholder="Insira seu nome de usuário">
+        <p>Senha</p>
+        <input type="password" name="" placeholder="Insira sua senha">
+        <input type="submit" name="" value="Login">
+        <a href="#">Esqueceu sua senha?</a><br>
+        <a href="cadastro.html">Ainda não possui uma conta?</a>
+
+    </form>
+</div>
+
+<script>
+        function toggleMobileMenu() {
+            var ul = document.querySelector("nav ul");
+            var commonButtons = document.querySelectorAll("nav .bt-common-menu");
+            var icon = document.querySelector(".icon > i");
+            ul.classList.toggle("mobile-mode");
+            if (icon.classList.contains("fa-bars")) {
+                icon.classList.remove("fa-bars");
+                icon.classList.remove("fa");
+                icon.classList.add("fas");
+                icon.classList.add("fa-skull");
+            } else {
+                icon.classList.remove("fas");
+                icon.classList.remove("fa-skull");
+                icon.classList.add("fa");
+                icon.classList.add("fa-bars");
+            }
+            for (var button of commonButtons) {
+                button.classList.toggle("active");
+            }
+        }
+        
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+C:\Users\pedro\Desktop\Exercicios\DesafiosProgramacao\Exercicio16\bin\Debug\netcoreapp2.2\Exercicio16.deps.json
+C:\Users\pedro\Desktop\Exercicios\DesafiosProgramacao\Exercicio16\bin\Debug\netcoreapp2.2\Exercicio16.runtimeconfig.json
+C:\Users\pedro\Desktop\Exercicios\DesafiosProgramacao\Exercicio16\bin\Debug\netcoreapp2.2\Exercicio16.runtimeconfig.dev.json
+C:\Users\pedro\Desktop\Exercicios\DesafiosProgramacao\Exercicio16\bin\Debug\netcoreapp2.2\Exercicio16.dll
+C:\Users\pedro\Desktop\Exercicios\DesafiosProgramacao\Exercicio16\bin\Debug\netcoreapp2.2\Exercicio16.pdb
+C:\Users\pedro\Desktop\Exercicios\DesafiosProgramacao\Exercicio16\obj\Debug\netcoreapp2.2\Exercicio16.csprojAssemblyReference.cache
+C:\Users\pedro\Desktop\Exercicios\DesafiosProgramacao\Exercicio16\obj\Debug\netcoreapp2.2\Exercicio16.csproj.CoreCompileInputs.cache
+C:\Users\pedro\Desktop\Exercicios\DesafiosProgramacao\Exercicio16\obj\Debug\netcoreapp2.2\Exercicio16.AssemblyInfoInputs.cache
+C:\Users\pedro\Desktop\Exercicios\DesafiosProgramacao\Exercicio16\obj\Debug\netcoreapp2.2\Exercicio16.AssemblyInfo.cs
+C:\Users\pedro\Desktop\Exercicios\DesafiosProgramacao\Exercicio16\obj\Debug\netcoreapp2.2\Exercicio16.dll
+C:\Users\pedro\Desktop\Exercicios\DesafiosProgramacao\Exercicio16\obj\Debug\netcoreapp2.2\Exercicio16.pdb

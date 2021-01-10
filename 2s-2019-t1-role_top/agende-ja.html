@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/agende-ja.css" type="text/css" rel="stylesheet"/>
+    <title>Agende já</title>
+</head>
+<body>
+<!------------------------------------
+        Cabeçalho
+------------------------------------->
+<header>
+        <nav id="menu">
+            <a id="logo"> <img src="img/logo.png"></a>
+            <ul>
+                <li><a href="index.html">Início <i class="fa fa-bars"></i></a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="administrador.html" target="blank">Administrador</a></li>
+                <li><a href="agende-ja.html">Agende já</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="agendar">
+        <h2>Escolha uma data</h2>
+            <div>
+            <label for="evento">Tipo de evento</label>
+            <select id="evento" required>
+                <option value="" disabled selected>Selecione</option>
+                <option value="corporativo">Corporativo</option>
+                <option value="casamento">Casamento</option>
+                <option value="palestras">Palestra</option>
+                <option value="danca">Dança</option>
+                <option value="show">Show</option>
+            </select>
+        </div>
+        <br/>
+    <div>
+        <label for="pacote">Incluir pacote de som e iluminação</label>
+        <select id="pacote" required>
+            <option value="" disabled selected>Selecione</option>
+            <option value="som">Som</option>
+            <option value="iluminacao">Iluminação</option>
+            <option value="dois">Som e Iluminação</option>
+            <option value="naoincluir">Não Incluir</option>
+        </select>
+    </div>
+    <br/>
+    <div>
+        <p>Dia</p>
+        <input type="number" name="dia" placeholder="Dia 15"/>
+        <p>Mês</p>
+        <input type="number" name="mes" placeholder="Mês 10"/>
+        <p>Ano</p>
+        <input type="number" name="ano" placeholder="2001">
+    </div>
+    
+    <div>
+        <label for="acesso">Controle de acesso</label>
+        <select id="acesso" required>
+            <option value="publico">Público</option>
+            <option value="privado">Privado</option>
+        </select>
+    </div>
+    <br/>
+    <input type="submit" name="" value="Enviar">
+</div>
+</main>
+</body>
+</html>
